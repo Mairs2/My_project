@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color:rgb(204, 235, 225);
+}
+body div ul li a{
+    font-family: 'Times New Roman', Times, serif;
+    list-style-type: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: black;
+    background: rgb(231, 153, 153);
+    display: flex;
+    padding: 5px;
+    margin: 0 20px;
+}
+
+.about_me{
+  display: flex;
+  flex-direction: column;     /* stack image and text vertically */
+  align-items: center;        /* center horizontally */
+  justify-content: center;    /* center vertically */
+  height: 50vb;              /* full viewport height */
+  text-align: center;
+}
